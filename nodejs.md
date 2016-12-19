@@ -7,7 +7,7 @@
 * On Mac
 
 ### Install modules
-
+* [how to install nodejs package from github directly](http://stackoverflow.com/questions/17509669/how-to-install-nodejs-package-from-github-directly)
 
 ### Update nodejs or npm
 * On Windows
