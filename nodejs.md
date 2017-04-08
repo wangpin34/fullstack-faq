@@ -10,6 +10,15 @@
 * [how to install nodejs package from github directly](http://stackoverflow.com/questions/17509669/how-to-install-nodejs-package-from-github-directly)
 
 ### Update nodejs or npm
+* Mac/Linux/Window(with poweshell)
+```bash
+# Clean cache, usually it is not necessary
+$ sudo npm cache clean -f
+# n is tool for manage nodejs/npm versions
+$ sudo npm install -g n 
+$ sudo n stable 
+
+```
 * On Windows
   * [how-do-i-update-node-and-npm-on-windows](http://stackoverflow.com/questions/18412129/how-do-i-update-node-and-npm-on-windows)
 
