@@ -10,3 +10,17 @@ pip 还支持 proxy 选项
 ```
 pip install --proxy=http://proxy_url:proxy_port package
 ```
+# 打包为可执行文件（windows）
+* 安装 pyinstaller
+```bash
+easy_install pyinstaller
+```
+* 打包
+```bash
+pyinstaller youpythonfile.py
+```
+打包为一个文件
+```bash
+pyinstaller --onefile youpythonfile.py
+```
+[官方文档](https://pyinstaller.readthedocs.io/en/stable/)
