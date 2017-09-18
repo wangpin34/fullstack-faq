@@ -9,6 +9,13 @@
 ### Install modules
 * [how to install nodejs package from github directly](http://stackoverflow.com/questions/17509669/how-to-install-nodejs-package-from-github-directly)
 
+```
+npm install git+https://git@github.com/visionmedia/express.git
+npm install git+ssh://git@github.com/visionmedia/express.git
+# configed ssh 
+npm install git+ssh://configName:visionmedia/express.git
+```
+
 ### Update nodejs or npm
 * Mac/Linux/Window(with poweshell)
 ```bash
