@@ -15,6 +15,11 @@ npm install git+ssh://git@github.com/visionmedia/express.git
 # configed ssh 
 npm install git+ssh://configName:visionmedia/express.git
 ```
+* [installing-a-local-module-using-npm](https://stackoverflow.com/questions/8088795/installing-a-local-module-using-npm)
+```
+npm install path
+```
+or [link](https://docs.npmjs.com/cli/link)
 
 ### Update nodejs or npm
 * Mac/Linux/Window(with poweshell)
