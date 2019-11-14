@@ -26,3 +26,26 @@ This still works on both Ubuntu and OSX and on machines without the script .git-
 Now git **Tab** (actually it's git **Tab** **Tab** ) works like a charm!
 
 (PS: If this doesn't work off the bat, you may need to run chmod -X ~/.git-completion.bash to give the script permission to run.)
+
+### port is already in use
+The most straightforward solution you can take to resolve this issue is that terminated the process which is locking the specified port.
+
+Here is the anwser copied from stackoverflow.
+
+You can try netstat
+
+```
+netstat -vanp tcp | grep 3000
+```
+For macOS El Capitan and newer (or if your netstat doesn't support -p), use lsof
+
+```
+sudo lsof -i tcp:3000 
+```
+For Centos 7 use
+```
+netstat -vanp --tcp | grep 3000
+```
+
+references:
+[find and kill process locking port 3000 on mac](https://stackoverflow.com/questions/3855127/find-and-kill-process-locking-port-3000-on-mac)
